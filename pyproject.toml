@@ -1,0 +1,38 @@
+[tool.poetry]
+name = "spdx_poetry_demo"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.5"
+Flask = ">=0.12.2"
+Flask-RESTful = ">=0.3.6"
+flask-restful-swagger-2 = ">=0.35"
+flask-swagger-ui = ">=3.6.0"
+iso8601 = "*"
+marshmallow = "<3.0"
+psycopg2-binary = "*"
+gunicorn = "*"
+python-jose = {extras = ["cryptography"], version = "*"}
+python-dateutil = "*"
+click = "*"
+flask-cors = "*"
+gitpython = "*"
+requests-cache = "*"
+redis = "*"
+markdown = "*"
+"boto3" = "*"
+arnparse = "*"
+structlog = "*"
+docker = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+requests-mock = "*"
+tox = "*"
+moto = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
