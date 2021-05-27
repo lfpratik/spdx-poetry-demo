@@ -21,4 +21,4 @@
     spdx-poetry-demo$ poetry shell
 
 ###### Install requirements
-    (spdx-poetry-demo-Qax23sz) spdx-poetry-demo$ poetry install
+    (spdx-poetry-demo) spdx-poetry-demo$ poetry install
