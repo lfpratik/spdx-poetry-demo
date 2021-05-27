@@ -5,20 +5,20 @@
 ###### Clone Project
 
     https client: 
-    git clone https://github.com/lfpratik/spdx-poetry-demo.git
+    <your_workspace_dir>$ git clone https://github.com/lfpratik/spdx-poetry-demo.git
     
     ssh client: 
-    git clone git@github.com:lfpratik/spdx-poetry-demo.git
+    <your_workspace_dir>$ git clone git@github.com:lfpratik/spdx-poetry-demo.git
 
 ###### Goto project dir
     cd spdx-poetry-demo
 
 ###### install prerequisite 
-    pip install --user poetry   # for python2
-    pip3 install --user poetry  # for python2
+    spdx-poetry-demo$ pip install --user poetry     # for python2
+    spdx-poetry-demo$ pip3 install --user poetry    # for python2
 
 ###### Create a virtul env for project
-    poetry shell
+    spdx-poetry-demo$ poetry shell
 
 ###### Install requirements
-    poetry install
+    (spdx-poetry-demo-Qax23sz) spdx-poetry-demo$ poetry install
