@@ -1116,7 +1116,7 @@ testing = ["pathlib2", "unittest2", "jaraco.itertools", "func-timeout"]
 [metadata]
 lock-version = "1.1"
 python-versions = "^3.5"
-content-hash = "88028a449a2ded4a5ecf944f40cf576f82cad9b4ae63510459bb6a83ff7c0268"
+content-hash = "7c572b5314836cc319354b4f8ee973acc12e68c316d40245277e0eb47783b4bc"
 
 [metadata.files]
 aniso8601 = [
