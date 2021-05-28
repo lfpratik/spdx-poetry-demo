@@ -14,11 +14,15 @@
     cd spdx-poetry-demo
 
 ###### install prerequisite 
-    spdx-poetry-demo$ pip install --user poetry     # for python2
-    spdx-poetry-demo$ pip3 install --user poetry    # for python2
+    curl -sSL https://raw.githubusercontent.com/python-poetry/poetry/master/get-poetry.py | python -
+
+    source ~/.bashrc | source ~/.bash_profile   # if you are using bash
+    source ~/.zshrc                             # if you are using zsh
+    poetry --version | poetry -V                # Poetry version 1.1.6
 
 ###### Create a virtul env for project
     spdx-poetry-demo$ poetry shell
 
 ###### Install requirements
-    (spdx-poetry-demo) spdx-poetry-demo$ poetry install
+    (spdx-poetry-demo) spdx-poetry-demo$ poetry install     # first step 
+    (spdx-poetry-demo) spdx-poetry-demo$ poetry update      # run this if any issue occured
