@@ -1,11 +1,29 @@
 [tool.poetry]
 name = "spdx_poetry_demo"
 version = "0.1.0"
-description = ""
-authors = ["Your Name <you@example.com>"]
+description = "A small example package"
+authors = ["Pratik Karanje <lfpratik@linuxfoundation.org>"]
+homepage = 'https://github.com/lfpratik/spdx-poetry-demo'
+license = 'apache-2.0'
+
+classifiers = [
+    "Development Status :: 5 - Production/Stable",
+    "Intended Audience :: Developers",
+    "Natural Language :: English",
+    "License :: OSI Approved :: Apache license 2.0",
+    "Operating System :: OS Independent",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.5",
+    "Programming Language :: Python :: 3.6",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: Implementation :: CPython",
+    "Programming Language :: Python :: Implementation :: PyPy",
+]
 
 [tool.poetry.dependencies]
-python = "^3.5"
+python = ">=3.6,<4.0"
 requests = "*"
 Flask = ">=0.12.2"
 Flask-RESTful = ">=0.3.6"
@@ -27,6 +45,7 @@ markdown = "*"
 arnparse = "*"
 structlog = "*"
 docker = "*"
+grimoirelab-toolkit = {branch = "master", git = "https://github.com/chaoss/grimoirelab-toolkit"}
 
 [tool.poetry.dev-dependencies]
 pytest = "^5.2"
